@@ -1,0 +1,15 @@
+{
+  "name": "Boilerplate",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": ["activeTab","declarativeContent","storage"],
+  "background": {
+    "scripts": ["init.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}

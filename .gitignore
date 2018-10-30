@@ -87,4 +87,9 @@ typings/
 .fusebox/
 
 *.map
+
+
 # End of https://www.gitignore.io/api/code,node
+public/init.js
+public/options.js
+public/popup.js
