@@ -7,6 +7,17 @@
     "scripts": ["init.js"],
     "persistent": false
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://developer.chrome.com/*"
+      ],
+      "js": [
+        "app.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
   "page_action": {
     "default_popup": "popup.html"
   },
